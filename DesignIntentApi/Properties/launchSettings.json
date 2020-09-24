@@ -1,0 +1,31 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:50230",
+      "sslPort": 44352
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "environmentVariables": {
+        "FORGE_CLIENT_SECRET": "IpHDgAKFZK7FCtM2",
+        "Token_Issuer": "https://localhost:44352",
+        "Token_Key": "15b42355-67e2-4341-8e66-baf70eb8cbe3",
+        "FORGE_CALLBACK": "https://localhost:44352",
+        "FORGE_CLIENT_ID": "8ZL79XLH8KBofz39G2cia1fnOzSZ3kJm",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "DesignIntentApi": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}
